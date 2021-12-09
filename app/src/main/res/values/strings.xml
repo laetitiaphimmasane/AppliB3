@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">StudentApplication</string>
+    <string name="header_title">Title</string>
+    <string name="zone_un">Zone 1</string>
+    <string name="zone_deux">Zone 2</string>
+    <string name="button_rodica">Rodica</string>
+    <string name="button_laetitia">Laëtitia</string>
 </resources>
