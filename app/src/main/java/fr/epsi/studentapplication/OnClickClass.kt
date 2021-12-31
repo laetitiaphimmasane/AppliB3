@@ -6,7 +6,7 @@ import android.view.View
 class OnClickClass : View.OnClickListener {
     var test = 0
     fun StudentOnClickListener(myLovelyVariable: Int) {
-        this.StudentOnClickListener() = test
+        //this.StudentOnClickListener() = test
     }
 
     override fun onClick(v: View?) {

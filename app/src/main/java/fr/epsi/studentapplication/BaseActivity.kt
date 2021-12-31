@@ -9,7 +9,7 @@ import androidx.appcompat.app.AppCompatActivity
 
 open class BaseActivity : AppCompatActivity() {
     fun showBack(){
-        val imageViewBack = findViewById<ImageView>(R.id.imageViewBack)
+        val imageViewBack = findViewById<ImageView>(R.id.imageBack)
         imageViewBack.visibility= View.VISIBLE
         imageViewBack.setOnClickListener(View.OnClickListener {
             onBackPressed()

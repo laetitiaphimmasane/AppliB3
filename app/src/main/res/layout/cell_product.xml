@@ -24,7 +24,8 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:textStyle="bold"
-            android:maxLines="4"/>
+            android:maxLines="4"
+            android:ellipsize="end"/>
 
         <TextView/>
     </TableRow>

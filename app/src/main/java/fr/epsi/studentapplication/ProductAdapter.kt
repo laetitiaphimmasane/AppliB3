@@ -1,6 +1,6 @@
 package fr.epsi.studentapplication
 
- import com.squareup.picasso.Picasso
+//import com.squareup.picasso.Picasso
 import android.content.Intent
 import android.text.SpannableString
 import android.text.Spanned.SPAN_INCLUSIVE_INCLUSIVE
@@ -44,7 +44,7 @@ class ProductAdapter(val products: ArrayList<Product>): RecyclerView.Adapter<Pro
 
         val finalText = TextUtils.concat(span1, "\n", span2)
 
-        Picasso.get().load(product.picture_url).into(holder.productImageView)
+        //Picasso.get().load(product.picture_url).into(holder.productImageView)
         holder.textViewInfos.text = finalText
         holder.product_table_row.setOnClickListener { v ->
             val intent = Intent(v.context, ProductDetails::class.java)
