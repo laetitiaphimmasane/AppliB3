@@ -1,5 +1,6 @@
 package fr.epsi.studentapplication
 
+import android.content.Intent
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -29,8 +30,11 @@ class RayonAdapter(val rayons: ArrayList<Rayon>):RecyclerView.Adapter<RayonAdapt
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         val rayon = rayons.get(position)
         holder.textViewTitle.text = "\n" + rayon.title + "\n"
-        holder.categories_table_row.setOnClickListener(View.OnClickListener {
-            holder.textViewTitle.context.applicationContext as StudentApplication
-        })
+        holder.categories_table_row.setOnClickListener { v ->
+            val intent = Intent(v.context, ProductsList::class.java)
+            intent.putExtra("title",rayon.title)
+            intent.putExtra("products_url",rayon.products_url)
+            v.context.startActivity(intent)
+        }
     }
 }
