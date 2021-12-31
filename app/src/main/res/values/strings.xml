@@ -1,3 +1,9 @@
 <resources>
-    <string name="app_name">StudentApplication</string>
+    <string name="app_name">EpsiG1TestActivity</string>
+    <string name="txt_btn_home_nature">Nature</string>
+    <string name="txt_btn_home_espace">Espace</string>
+    <string name="txt_btn_home_login">Login</string>
+    <string name="txt_btn_home_students">Students</string>
+    <string name="txt_btn_home_students_online">Students Online</string>
+    <string name="txt_zone2">Zone 2</string>
 </resources>
