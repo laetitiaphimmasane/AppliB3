@@ -7,8 +7,7 @@ import androidx.recyclerview.widget.RecyclerView
 import org.json.JSONObject
 
 class StudentActivity : BaseActivity() {
-
-    val data="{\n" +
+    private val data="{\n" +
             "  \"items\": [\n" +
             "    {\n" +
             "      \"picture_url\": \"https://www.numerama.com/content/uploads/2019/05/trou-noir-espace-univers-astronomie.jpg\",\n" +
@@ -29,23 +28,8 @@ class StudentActivity : BaseActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_student)
+        setHeaderTitle("Student Info")
         showBack()
-        val students = arrayListOf<Student>()
-        val jsStudents = JSONObject(data)
-        val jsArrayStudents= jsStudents.getJSONArray("items")
-        for(i in 0 until jsArrayStudents.length()){
-            val jsStudent = jsArrayStudents.getJSONObject(0)
-            val student = Student(jsStudent.optString("name",""),
-                jsStudent.optString("email",""),
-                jsStudent.optString("picture_url",""),jsStudent.optString("groupe",""))
-            students.add(student)
-            Log.d("student",student.name)
-        }
 
-
-        val recyclerView = findViewById<RecyclerView>(R.id.recyclerViewStudents)
-        recyclerView.layoutManager = LinearLayoutManager(this)
-        val studentAdapter = StudentAdapter(students)
-        recyclerView.adapter=studentAdapter
     }
 }
