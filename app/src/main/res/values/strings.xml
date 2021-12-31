@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">EpsiG1TestActivity</string>
+    <string name="app_name">StudentApplication</string>
     <string name="txt_btn_home_nature">Nature</string>
     <string name="txt_btn_home_espace">Espace</string>
     <string name="txt_btn_home_login">Login</string>

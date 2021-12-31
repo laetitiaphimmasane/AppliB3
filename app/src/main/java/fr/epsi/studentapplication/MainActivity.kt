@@ -17,6 +17,6 @@ class MainActivity : BaseActivity() {
         })
 
         setHeaderTitle("Main")
-        (application as AppEpsi)
+        (application as StudentApplication)
     }
 }

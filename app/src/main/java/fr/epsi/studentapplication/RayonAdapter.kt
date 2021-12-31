@@ -1,21 +1,19 @@
 package fr.epsi.studentapplication
 
-import android.os.Bundle
-import android.util.Log
-/*import android.view.LayoutInflater
+import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
-import android.widget.LinearLayout
+import android.widget.TableLayout
+import android.widget.TableRow
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-// import com.squareup.picasso.Picasso
 
-class RayonAdapter(val rayons: ArrayList<Rayon>):RecyclerView.Adapter<ViewHolder>() {
+class RayonAdapter(val rayons: ArrayList<Rayon>):RecyclerView.Adapter<RayonAdapter.ViewHolder>() {
 
-    class ViewHolder(view:View) :RecyclerView.ViewHolder(view){
-        val textViewTitle = view.findViewById<TextView>(R.id.textViewTitle)
-        val contentLayout = view.findViewById<LinearLayout>(R.id.contentLayout)
+    class ViewHolder(view: View) :RecyclerView.ViewHolder(view){
+        val categories_table_row = view.findViewById<TableRow>(R.id.categorieRow)
+        val textViewTitle = view.findViewById<TextView>(R.id.categorieTitle)
     }
 
     override fun onCreateViewHolder(viewGroup: ViewGroup, viewType: Int): ViewHolder {
@@ -24,19 +22,15 @@ class RayonAdapter(val rayons: ArrayList<Rayon>):RecyclerView.Adapter<ViewHolder
         return ViewHolder(view)
     }
 
-    override fun onBindViewHolder(holder: ViewHolder, position: Int) {
-        val rayon = rayons.get(position)
-        holder.textViewTitle.text=rayon.title
-        holder.contentLayout.setOnClickListener(View.OnClickListener {
-            holder.contentLayout.context.applicationContext as AppEpsi
-        })
-    }
-
     override fun getItemCount(): Int {
         return rayons.size
     }
 
-    override fun onBindViewHolder(holder: RayonAdapter.ViewHolder, position: Int) {
-        TODO("Not yet implemented")
+    override fun onBindViewHolder(holder: ViewHolder, position: Int) {
+        val rayon = rayons.get(position)
+        holder.textViewTitle.text = "\n" + rayon.title + "\n"
+        holder.categories_table_row.setOnClickListener(View.OnClickListener {
+            holder.textViewTitle.context.applicationContext as StudentApplication
+        })
     }
-}*/
+}
