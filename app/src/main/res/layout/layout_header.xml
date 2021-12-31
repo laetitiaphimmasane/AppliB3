@@ -26,11 +26,9 @@
             android:textColor="@color/white"
             android:textSize="20dp"
             android:layout_weight="1"
+            android:paddingRight="5dp"
+            android:paddingLeft="55dp"
            android:text="@string/header_title" />
 
-
     </RelativeLayout>
-
-
-
 </LinearLayout>

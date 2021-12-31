@@ -8,11 +8,31 @@
         <entry key="..\:/Users/Lele/AndroidStudioProjects/StudentApplication/app/src/main/res/layout/activity_splash.xml" value="0.4466666666666667" />
         <entry key="..\:/Users/Lele/AndroidStudioProjects/StudentApplication/app/src/main/res/layout/activity_student.xml" value="0.30625" />
         <entry key="..\:/Users/Lele/AndroidStudioProjects/StudentApplication/app/src/main/res/layout/cell_student.xml" value="0.3177083333333333" />
-        <entry key="..\:/Users/Lele/AndroidStudioProjects/StudentApplication/app/src/main/res/layout/layout_header.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/Lele/AndroidStudioProjects/StudentApplication/app/src/main/res/layout/layout_header.xml" value="0.3333333333333333"/>
+          <entry key="..\:/Users/Lele/AndroidStudioProjects/StudentApplication/app/src/main/res/drawable/border.xml" value="0.2203125" />
+          <entry key="..\:/Users/Lele/AndroidStudioProjects/StudentApplication/app/src/main/res/drawable/cell_shape.xml" value="0.2203125" />
       </map>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+<!--
+        <entry key="..\:/Users/P/AndroidStudioProjects/AppliB3/app/src/main/res/drawable/border.xml" value="0.2203125" />
+        <entry key="..\:/Users/P/AndroidStudioProjects/AppliB3/app/src/main/res/drawable/cell_shape.xml" value="0.2203125" />
+        <entry key="..\:/Users/P/AndroidStudioProjects/AppliB3/app/src/main/res/layout/activity_base.xml" value="0.1" />
+        <entry key="..\:/Users/P/AndroidStudioProjects/AppliB3/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/P/AndroidStudioProjects/AppliB3/app/src/main/res/layout/activity_product_details.xml" value="0.19519927536231885" />
+        <entry key="..\:/Users/P/AndroidStudioProjects/AppliB3/app/src/main/res/layout/activity_products_list.xml" value="0.19519927536231885" />
+        <entry key="..\:/Users/P/AndroidStudioProjects/AppliB3/app/src/main/res/layout/activity_rayons_list.xml" value="0.2798887859128823" />
+        <entry key="..\:/Users/P/AndroidStudioProjects/AppliB3/app/src/main/res/layout/activity_splash.xml" value="0.19519927536231885" />
+        <entry key="..\:/Users/P/AndroidStudioProjects/AppliB3/app/src/main/res/layout/activity_splash2.xml" value="0.19519927536231885" />
+        <entry key="..\:/Users/P/AndroidStudioProjects/AppliB3/app/src/main/res/layout/cell_product.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/P/AndroidStudioProjects/AppliB3/app/src/main/res/layout/cell_rayon.xml" value="0.33" />
+        <entry key="..\:/Users/P/AndroidStudioProjects/AppliB3/app/src/main/res/layout/layout_header.xml" value="0.20416666666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_13" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+-->
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">

@@ -1,7 +1,6 @@
 package fr.epsi.studentapplication
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.Button
@@ -19,6 +18,13 @@ class MainActivity : BaseActivity() {
             startActivity(newIntent)
         })
 
-        setHeaderTitle("Epsi")
+        setHeaderTitle("Main")
+
+        buttonZoneDeux.setOnClickListener(View.OnClickListener {
+            val newIntent = Intent(application,RayonsListActivity::class.java)
+            startActivity(newIntent)
+        })
+
+        (application as StudentApplication)
     }
 }
