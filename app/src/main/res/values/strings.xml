@@ -5,4 +5,11 @@
     <string name="zone_deux">Zone 2</string>
     <string name="button_rodica">Rodica</string>
     <string name="button_laetitia">Laëtitia</string>
+    <string name="info_student">Informations sur letudiant</string>
+    <string name="prenomRodica">Rodica</string>
+    <string name="prenomLaetitia">Laëtitia</string>
+    <string name="emailRodica">rodica.adigbonon@epsi.fr</string>
+    <string name="emailLaetitia">laetitia.phimmasane@epsi.fr</string>
+    <string name="groupeStudent">Groupe 1</string>
+    <string name="linkSchool">http://www.epsi.fr/</string>
 </resources>
