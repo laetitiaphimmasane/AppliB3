@@ -5,6 +5,10 @@ import android.util.Log
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import org.json.JSONObject
+import android.content.Intent
+import android.view.View
+import android.widget.Button
+import java.util.*
 
 class StudentActivity : BaseActivity() {
     private val data="{\n" +
@@ -30,6 +34,8 @@ class StudentActivity : BaseActivity() {
         setContentView(R.layout.activity_student)
         setHeaderTitle("Student Info")
         showBack()
+
+        val LinkedList = intent.getSerializableExtra("Liste") as LinkedList<String>?
 
     }
 }
