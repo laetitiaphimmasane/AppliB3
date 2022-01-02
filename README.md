@@ -1,1 +1,1 @@
-# Student and Proucts Application
+# Student and Products Application
