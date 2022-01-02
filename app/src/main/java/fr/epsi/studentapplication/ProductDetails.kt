@@ -3,7 +3,7 @@ package fr.epsi.studentapplication
 import android.os.Bundle
 import android.widget.ImageView
 import android.widget.TextView
-//import com.squareup.picasso.Picasso
+import com.squareup.picasso.Picasso
 
 class ProductDetails : BaseActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -25,7 +25,7 @@ class ProductDetails : BaseActivity() {
 
         textViewInfos.text = "Description : " + "\n" + description
 
-        //Picasso.get().load(picture_url).into(productImageView)
+        Picasso.get().load(picture_url).into(productImageView)
 
         (application as StudentApplication)
     }
