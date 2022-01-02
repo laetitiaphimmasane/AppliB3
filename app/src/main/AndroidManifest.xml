@@ -19,7 +19,8 @@
             android:exported="false" />
         <activity
             android:name=".GroupInfoActivity"
-            android:exported="false" />
+            android:exported="false">
+        </activity>
         <activity
             android:name=".ProductDetails"
             android:exported="false" />
